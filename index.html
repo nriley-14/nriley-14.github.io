@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Nick's Website</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains Mono">
+    <script src="scripts.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -20,24 +23,14 @@
       <h1 class="page-title">Home</h1>
       <div class="about">
         <div class="about-image">
-          <img src="selfImage.jpg" alt="image of me" width="50">
+          <img id="myImage" src="selfImage.jpg" alt="image of me">
         </div>
         <div class="about-text">
-          <p>
-            <strong>Hack4Impact</strong> is a 501c3
-            <em>non-profit organization</em> that does non-profit software
-            development in support of local non-profits. We build websites,
-            volunteer management systems, and web applications that an
-            organization would require to accomplisht their goals.
-          </p>
-          <p>
-            This year we are working with <strong>nine</strong> non-profits to
-            further their mission and provide them software tools. Organizations
-            we have worked in the past include <strong>NAACP</strong>,
-            <strong>Habitat 4 Humanity</strong>, <strong>Lumina</strong>, and
-            more!
-          </p>
+          <div id="prompt" onload="typeText()">
+
+          </div>
+        </div>
     </main>
-    <footer class="footer">© 2023 Nick Riley's Website | All Rights Reserved | Made with love ♥</footer>
+    <footer class="footer">© 2023 Nick Riley's Website | All Rights Reserved</footer>
   </body>
 </html>
