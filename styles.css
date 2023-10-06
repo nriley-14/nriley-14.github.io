@@ -170,3 +170,26 @@ form {
 .resume-list{
   margin: 0px;
 }
+
+#site-image{
+  width: 70%;
+}
+
+.project{
+  text-align: center;
+  padding-top: 10px;
+}
+
+#currency-phone{
+  width:30%;
+}
+
+#verse-phone{
+  width:35%;
+}
+
+.project-description{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
