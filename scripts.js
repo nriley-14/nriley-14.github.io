@@ -2,7 +2,7 @@ async function typeText() {
     var sentences = [
         "My Name is Nick Riley",
         "I am a first year computer science major",
-        "I am extremely excited to use software to help the community",
+        "I am extremely excited to use my software skills to help my community",
     ];
     var fullMsg = "<p class='cursor' onload='typeText()'>";
 
@@ -64,7 +64,6 @@ async function typeText() {
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
 
 window.onload = typeText;
 
