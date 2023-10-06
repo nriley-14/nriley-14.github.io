@@ -8,7 +8,8 @@ async function typeText() {
 
     for (var i = 0; i <= sentences.length; i++) {
         var text = sentences[i];
-        var numBlinks = 2;
+        var numBlinks = 2
+        ;
         fullMsg += ">"
         document.getElementById("prompt").innerHTML = fullMsg;
 
