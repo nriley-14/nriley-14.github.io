@@ -2,7 +2,8 @@ async function typeText() {
     var sentences = [
         "My Name is Nick Riley",
         "I am a first year computer science major",
-        "I am extremely excited to use my software skills to help my community",
+        "I am very excited by the idea of using my software skills to help my community",
+        "In my free time I enjoy lifting and mountain biking",
     ];
     var fullMsg = "<p class='cursor' onload='typeText()'>";
 
@@ -14,7 +15,7 @@ async function typeText() {
         document.getElementById("prompt").innerHTML = fullMsg;
 
         var cursor = true;
-        var blinkCount = 0;
+        var blinkCount = 1;
         while (true) {
             if (cursor) {
                 document.getElementById("prompt").innerHTML = fullMsg + " ";
